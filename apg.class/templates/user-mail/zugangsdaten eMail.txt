@@ -1,0 +1,30 @@
+<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>
+<p><span>Hallo [vorname] [nachname],</span></p>
+<p><span>es wurde eine Galerie f&uuml;r Sie erstellt. In dieser E-Mail erhalten Sie die Zugangsdaten zum Login.</span></p>
+<p>&nbsp;</p>
+<table border="0">
+<tbody>
+<tr>
+<td><strong><span>URL:</span></strong></td>
+<td><span>[loginurl]</span></td>
+</tr>
+<tr>
+<td><strong><span>Name:</span></strong></td>
+<td><span>[loginname]</span></td>
+</tr>
+<tr>
+<td><strong><span>Passwort:</span></strong></td>
+<td><span>[passwort]</span></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p><span>F&uuml;r weitere Fragen, stehen wir Ihnen gerne zur Verf&uuml;gung.</span></p>
+<p><span><span data-mce-mark="1"><span data-mce-mark="1"><a style="color: orange;" href="mailto:###ABSEMAIL###"><span data-mce-mark="1">###ABSEMAIL###</span></a></span>&nbsp;</span>&nbsp;|&nbsp;&nbsp;<span data-mce-mark="1">&nbsp;<span data-mce-mark="1"><a style="color: orange;" href="###ABSURL###"><span>###ABSURL###</span></a></span></span></span></p>
+<p>&nbsp;</p>
+<p><span data-mce-mark="1"><span data-mce-mark="1">Wir w&uuml;nschen Ihnen viel Spass und Freude mit&nbsp;</span><span><strong style="color: orange;">Art</strong></span><strong style="color: grey;"><span>Picture-Gallery</span>.</strong></span></p>
+<p><span>&nbsp;</span></p>
+<hr />
+<p>&nbsp;</p>

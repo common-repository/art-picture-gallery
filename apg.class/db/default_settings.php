@@ -1,0 +1,222 @@
+<?php
+$wp_def_conf = array(
+/** Wordpress Settings */
+'CONCATENATE_SCRIPTS'               =>'0',   //(De)activates the consolidation of Javascript or CSS files before compressing.
+'COMPRESS_SCRIPTS'                  =>'0',      //(De)activates the compressing of Javascript files.
+'COMPRESS_CSS'                      =>'0',          //(De)activates the compressing of stylesheets.  
+'WP_CACHE'                          =>'0',              //When defined WordPres will load the /wp-content/advanced-cache.php file. 
+'ENFORCE_GZIP'                      =>'0',          //(De)activates gzip output. 
+'WP_POST_REVISIONS'                 =>'0',     //(De)activates the revision function for posts. A number greater than 0 defines the number of revisions for one post.                              //Values: true|false|number (Default: true)  
+'EMPTY_TRASH_DAYS'                  =>30,          //Controls the number of days before WordPress permanently deletes posts, pages, attachments, and comments, from the trash bin.
+/** Design*/
+'background800x489'                 =>'pages/assets/custom-js/images/ArtPictureBack800x489.jpg',
+'background800x489'                 =>'pages/assets/custom-js/images/ArtPictureBack500x300.jpg',
+/** PFADE */
+'file_upload_path'                  =>'/artGalerie/files/img/',
+'thumb_upload_path'                 =>'/artGalerie/files/thumb/',
+'medium_upload_path'                =>'/artGalerie/files/medium/',
+'image_freigaben'                   => array( 1 =>"1",2=>"2",3=>"3"),
+//** LICENSE ART_PICTURE PRO */ 
+'order_id'                          =>'',
+'license_key'                       =>'',
+'license_aktiv'                     =>'',    
+ /** PAGINATION und selected Settings */
+'pag_aktiv'                         => '1',
+'start_limit'                       => array('5'=>'5','10'=>'10','20'=>'20','35'=>'35','50'=>'50'),
+'start-select'                      => '20', 
+'links_anzeige'                     => array('5'=>'5','10'=>'10','20'=>'20','35'=>'35','50'=>'50'),
+'links_select'                      => '10', 
+'pag_class'                         => array('pagination-sm'=>'pagination-sm','pagination'=>'pagination','pagination-lg'=> 'pagination-lg'),
+'pag-class-select'                  => 'pagination-sm',
+'pag_anzahl'                        => array( 'oben'=>'oben','oben & unten'=>'oben & unten','unten'=>'unten'),
+'pag-anzahl-select'                 => 'oben', 
+/** SYSTEM SETTINGS */
+'_img_name_kurz'                    => 15,
+'_btn_name_kurz'                    => 16,
+'_btn_max_anzeige'                  => 15,
+'_select_max_anzeige'               => 18,
+'_galerie_beschreibung_kurz'        => 70,
+'_galerie_start_beschreibung_kurz'  => 100,
+'_galerie_name_kurz'                => 18,
+/** BILDUPLOAD SETTINGS */
+'download_via_php'                  => true,
+//'bildgroesse'                       => '2',
+'inline_file_types'                 => '/\.(gif|jpe?g|png)$/i',
+'accept_file_types'                 => '/.+$/i',
+'max_file_size'                     => null,
+'max_file_size_placeholder'         => 'null',
+'min_file_size'                     => '1',
+'max_number_of_files'               => null,
+'image_file_types'                  => '/\.(gif|jpe?g|png)$/i',
+'correct_image_extensions'          => '2',
+'max_width'                         => 1024,
+'max_width_placeholder'             => 'null',
+'max_height'                        => 1024,
+'max_height_placeholder'            => 'null',
+'min_width'                         => 1,
+'min_height'                        => 1,
+'discard_aborted_uploads'           => 1,      
+'image_library'                     => array( 'GD-Library'=>'GD-Library','auto'=>'auto','ImageMagick'=>'ImageMagick' ),
+'image_library-select'              =>'auto',
+'max_size'                          =>'2',
+'post_max_size'                     =>'8M',
+'post_memory_limit'                 =>'128M',
+
+/**WP-DESIGN SETTINGS */
+'wp_settings_img_details'            => 1,
+'padding_top'                        =>'0px',
+'padding_bottom'                     =>'0px',       
+'site_background_color'              =>'transparent',
+'box_background_color'               =>'#ffffff', 
+'header_box'                         =>'', 
+'wp_settings_bootstrap_css'          =>1,
+'wp_settings_bootstrap_js'           =>1, 
+'wp_galerie_js'                      =>1,    
+     
+/** imagick_resource_limits */
+'RESOURCETYPE_MAP'                  => 32,
+'RESOURCETYPE_MEMORY'               => 32,
+/** imagick settings*/
+'convert_bin'                       => 'convert',
+'identify_bin'                      => 'identify',
+'limit_map'                         => '32MiB',
+'limit_memory'                      => '32MiB',
+'auto_orient'                       => 1,  
+/** img medium settings*/
+'medium_max_width'                  => 600,
+'medium_max_height'                 => 400,
+ /** img thumbnai settings*/
+'crop'                              => '1',
+'thumb_max_width'                   => 180,
+'thumb_max_height'                  => 180,
+'print_response'                    => true,
+/** soap api settings*/
+'soap_aktiv'                        => 2,
+'soap_user'                         => 'admin', 
+'soap_passwort'                     => 'admin', 
+'soap_location'                     => 'remote', 
+'soap_uri'                          => 'localhost', 
+'soap_server'                       => '',
+'session_salt'                      => 'w3463-dfgsdgd-564555',  
+
+/** core default settings*/
+'session_start'                     => false,
+'user_htaccess'                     => "admin",
+'pw_htaccess'                       => "admin", 
+'AppName'                           =>'Art-Picture-Galerie',
+'sub_path'                          =>'wp-content/plugins/',
+'confroot'                          => '',
+'methode'                           =>'',
+'f_plugin'                          =>1,
+'db_version'                        => '1.00',
+'if_db_version'                     => 1,
+'log_htaccess'                      => 2,
+'upload_htaccess'                   => 2,
+'remote_htaccess'                   => 2,
+'core_htaccess'                     => 2,
+'db_htaccess'                       => 2,
+'passwd'                            => 2,
+'htaccess_text'                     =>"geschützer Bereich..",
+ /** email gmail default settings*/
+'email_aktiv'                       =>1,
+'gmail_smtp'                        =>587,
+'gmail_host'                        =>'smtp.gmail.com',
+'gmail_SMTPSecure'                  =>'tls',
+'gmail_SMTPAuth'                    =>1,
+'gmail_Username'                    =>'username@gmail.com',
+'gmail_Password'                    =>'',
+'gmail_setFrom1'                    =>'from@example.com',
+'gmail_setFrom2'                    =>'',
+'smtp_Password_placeholder'         =>'Passwort',
+'gmail_setFrom_placeholder'         =>'Ihr Name',
+'gmail_addReplyTo1'                 =>'',
+'gmail_addReplyTo2'                 =>'',
+'gmail_addAddress1'                 =>'',
+'gmail_addAddress2'                 =>'',
+'gmail_Subject'                     =>'Ihre Zugangsdaten zur Art-Picture Galerie',
+'gmail_text'                        =>'',
+'gmail_save_mail'                   =>0,
+ /** GoogleMaps API-Key*/ 
+'google_maps_api_key'               =>''      
+);
+$DB_def_conf        = serialize($wp_def_conf);
+
+
+$db_tooltip = array(
+'tt_upl_max_width'                  =>"Die php.ini Einstellungen upload_max_filesize und post_max_size haben vorrang vor den folgenden Einstellungen",
+'tt_upl_max_height'                 =>"Die php.ini Einstellungen upload_max_filesize und post_max_size haben vorrang vor den folgenden Einstellungen",
+'tt_upl_max_width_medium'           =>"max. Breite der Mediumbilder",
+'tt_upl_max_height_medium'          =>"max. Höhe der Mediumbilder",
+'tt_upl_max_width_thumb'            =>"max. Breite für Thumbnails",
+'tt_upl_max_height_thumb'           =>"max. Höhe für Thumbnails",
+'tt_img_size'                       =>"max. größe des Bildes in MB. Bei festgelegten Limit, wird versucht die php.ini anzupassen...",
+'tt_crop'                           =>"Einstellung ob das Bild zugeschnitten wird. Die Einstellung ist nur für Thumbnails",
+'tt_image_extensions'               =>"Bildauflösung Einschränkungen",
+'tt_extens_max_height'              =>"Bildauflösung Einschränkungen",
+'tt_extens_max_widht'               =>"Bildauflösung Einschränkungen",
+'tt_extens_min_height'              =>"Bildauflösung Einschränkungen",
+'tt_extens_min_widht'               =>"Bildauflösung Einschränkungen",
+'tt_library'                        =>"GD: GD-Bibliothek zum Skalieren und Ausrichten | Auto: wenn imagick installiert wird die Option automatisch gewählt sonst fallback auf GD ",
+'tt_resourcetype_map'               =>"imagick resource limits recourcetype map",
+'tt_resourcetype_memory'            =>"imagick resource limits recourcetype memorey",
+'tt_convert_bin'                    =>"Pfad zum ImageMagick-Konvertierungs binär",
+'tt_identify_bin'                   =>"Befehl oder Pfad für den ImageMagick identifizieren binär",
+'tt_limit_memory'                   =>"Convert Parameter wird vor jedem Aufruf hinzugefügt",
+'tt_limit_map'                      =>"Convert Parameter wird vor jedem Aufruf hinzugefügt",
+'tt_pag_anzeige'                    =>"Pagination aktiv oder nicht",
+'tt_pag_size'                       =>"Größe der Pagination",
+'tt_pag_location'                   =>"Pagination anzeige: Über der Galerie, unter der Galerie oder beide.",
+'tt_pag_anzahl_start'               =>"Die Anzahl der Bilder die pro Seite und Link angezeigt werden",
+'tt_anzahl_links'                   =>"Anzahl der angezeigten Links nebeneinander ",
+'tt_htaccess'                       =>"Hier können sie den Zugriff von aussen mit Benutzername und Passwort einschränken.",
+'tt_pro_add_htaccess'               =>"In der pro Version können Sie eine unbegrenzte Anzahl von Benutzern hinzufügen.",
+//USER-FREIGABEN
+'tt_htaccess_aktiv'               =>"Wenn nicht aktiv, sind alle Freigaben für diesen Benutzer gesperrt, auch wenn einzelne Freigaben in den Freigabe-Settings aktiviert sind.",
+'tt_log_aktiv'                    =>"Wenn aktiv, sehen Sie alle Aktivitäten der Benutzer im Log.",
+'tt_user_email'                   =>"Hier können Sie die Email Adresse des Users ändern...",
+'tt_user_passwort'                =>"Hier können Sie das Passwort des Users ändern...",
+'tt_user_login'                   =>"der Login Name",
+'tt_user_delete'                  =>"Benutzer löschen: alle freigaben und Mitteilungen werden gelöscht. Diese Aktion kann nicht rückgänging gemacht werden!",
+
+'tt_freigabe_aktiv'               =>"Wenn aktiv, ist die Galerie für den Benutzer freigegeben. Wenn in den Benutzer-Settings der Benutzer deaktiviert ist, sind alle Freigaben gesperrt, uch wenn diese Galerie Freigabe AKTIV ist.  ",
+'tt_image'                        =>"Kommentare für Bilder von user...",
+'tt_check'                        =>"ausgewählte Bilder von user...",
+'tt_delete'                       =>"Es wird die freigabe gelöscht. Der Benutzer und die erstellte Galerie bleiben erhalten.",
+'tt_gps_aktiv'                    =>"wenn aktiviert und GPS-Daten im Bild vorhanden sind, kann der Benutzer den Standort der Kamera in GoogleMaps sehen.",
+'tt_exif_aktiv'                   =>"wenn aktiviert und Exif-Daten im Bild vorhanden sind, kann der Benutzer die Kamera Einstellungen sehen.",
+'tt_auswahl_aktiv'                =>"wenn aktiviert, kann der Benutzer einzelne Bilder auswählen. (checked)",
+'tt_kommentar_aktiv'              =>"wenn aktiviert, kann der Benutzer ein Kommentar für die freig. Bilder schreiben.",
+'tt_email_aktiv'                  =>"wenn aktiviert, kann der Benutzer ihnen Nachrichten senden.",
+'tt_benachrichtigung_aktiv'       =>"wenn aktiviert, werden Sie sofort benachrichtigt, wenn der Benutzer ein Kommentar schreibt, oder ein Bild auswählt.",
+'tt_galerie_typ'                  =>"wählen Sie das Galerie Layout...",
+
+'tt_user_beschreibung'            =>"Zeigt ob eine Bild Beschreibung vorhanden ist.",
+'tt_user_gps'                     =>"wenn aktiviert und GPS-Daten vorhanden sind, können Sie diese hier sehen.",
+'tt_user_exif'                    =>"wenn aktiviert, können Sie vorhandene Exif Daten des Fotgrafierten Bildes sehen.",
+'tt_user_kommentar'               =>"wenn aktiviert, können Sie ein Kommentar zu den Foto schreiben.",
+'tt_user_waehlen'                 =>"wenn aktiviert, können Sie dieses Bild auswählen",
+'tt_user_datum'                   =>"Datum, wann die Galerie erstellt wurde.",
+
+'tt_smtp_host'                   =>"Host ihres Anbieters.",
+'tt_smtp_port'                   =>"Port Nummer ihres Anbieters. Mögliche Ports: 25, 465 oder 587.",
+'tt_authentication'              =>"SMTP-Authentifizierung erforderlich?",
+'tt_smtp_Username'               =>'Benutzername zur Anmeldung.',
+'tt_smtp_Passwort'               =>'Passwort zur Anmeldung.',
+'tt_smtp_setFrom1'               =>'Geben Sie hier ihre Absender-Email an.',
+'tt_smtp_setFrom2'               =>'Geben Sie hier ihren Vor & Nachname an.',
+'tt_smtp_subject'                =>'Geben Sie hier den Betreff der Email an.',
+'tt_gmail_SMTPSecure'            =>'Setzen Sie das  Verschlüsselungssystem  ssl(veraltet) oder tls',
+'tt_gmail_save_mail'             =>'Sie können die Gesendete Email in ihren Gmail Postausgang speichern.',
+    
+'tt_Bilddetails'                 =>'Wenn AKTIV, wird eine extra Seite mit Bild-details angezeigt. Nicht Aktiv, das Bild wird angezeigt.',
+'tt_padding_top'                 =>'Abstand von oben der Bild-Detail Box.',
+'tt_padding_bottom'              =>'Abstand nach unten der Bild-Detail Box.',       
+'tt_site_background_color'       =>'Hintergrundfarbe für die Site Bild-Details ändern.', 
+'tt_box_background_color'        =>'Hintergrundfarbe für die Bild-Detailsbox ändern.',
+'tt_header_box'                  =>'Geben Sie einen Pfad zur einer Bilddatei an. Example images/meinBild.jpg ',
+'tt_wp_settings_bootstrap_css'   =>'Deaktivieren Sie die Bootsrtap CSS, wenn es Probleme mit Ihren WP-Theme gibt.',
+'tt_wp_settings_bootstrap_js'    =>'Deaktivieren Sie die Bootsrtap Javascript, wenn es Probleme mit Ihren WP-Theme gibt.',
+'tt_wp_galerie_js'               =>'Deaktivieren Sie die jquery blueimp-gallery'   
+);
+$tooltip_serial     = serialize($db_tooltip);
+?>

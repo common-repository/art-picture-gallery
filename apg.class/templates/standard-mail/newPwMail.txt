@@ -1,0 +1,24 @@
+<p><span style="font-size: small;">Hallo [vorname] [nachname],</span></p>
+<p><span style="font-size: small;">&nbsp;</span></p>
+<p><span style="font-size: small;">ihr <strong>Passwort</strong> wurde ge&auml;ndert</span></p>
+<p>&nbsp;</p>
+<table style="height: 46px; width: 211px;" border="0">
+<tbody>
+<tr>
+<td><span style="font-size: small;"><strong>Name:</strong></span></td>
+<td><span style="font-size: small;">[loginname]</span></td>
+</tr>
+<tr>
+<td><span style="font-size: small;"><strong>Passwort:</strong></span></td>
+<td><span style="font-size: small;">[passwort]</span></td>
+</tr>
+</tbody>
+</table>
+<p><span style="color: #000000; font-size: small;">&nbsp;</span></p>
+<p><span style="color: #000000; font-size: small;">Sie k&ouml;nnen sich wie gewohnt&nbsp;<strong><span style="color: #3366ff;"><a href="[loginurl]"><span style="color: #3366ff;">hier</span></a></span></strong>&nbsp;einloggen.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: small;">Wir w&uuml;nschen weiterhin viel Spass und Freude mit ihrer Galerie.</span></p>
+<p><span style="font-size: small; color: #000000;">F&uuml;r weitere Fragen, stehen wir Ihnen gerne zur Verf&uuml;gung.</span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>

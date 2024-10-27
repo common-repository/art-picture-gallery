@@ -1,0 +1,174 @@
+.table-header-row {
+    color: #fff !important;
+    background-color: #414245 !important;
+}
+.table-header-row {
+    color: #fff;
+    background-color: #414245;
+}
+.table-header {
+    font-family: 'Oswald', Arial, sans-serif !important;
+    text-transform: uppercase !important;
+    font-size: 24px !important;
+    color: #fff;
+}
+.price-color {
+    color: #ec2c18 !important;
+}
+.price-table .price {
+    color: #f21d39 !important;
+}
+.price {
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 26px !important;
+    color: #0691CE !important;
+}
+.price-info {
+    display: block !important;
+    font-style: italic !important;
+    font-size: 14px !important;
+    color: #999 !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: normal;
+}
+.price-info {
+    display: block;
+    font-style: italic;
+    font-size: 14px;
+    color: #999;
+    font-family: 'Open Sans', sans-serif;
+}
+td del {
+    color: #999 !important;
+    font-size: 24px !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: normal;
+}
+td del {
+    color: #999;
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+}
+table .fa-asterisk {
+    color: #f00;
+    font-size: 8px;
+    vertical-align: top;
+    margin: 2px 3px;
+}
+.btn1::before, .btn1::after {
+    content: "";
+    position: absolute;
+    z-index: -2;
+    transition: all 250ms ease-out;
+}
+::after, ::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.paper-raise:hover::before {
+    box-shadow: 0 15px 10px -10px rgba(31, 31, 31, 0.5);
+}
+.paper-raise::before {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.btn-color {
+    color: #fff;
+    background-color: #ec2c18;
+    background-image: -webkit-linear-gradient(left,#eb2610 0,#f54940 100%);
+    background-image: -o-linear-gradient(left,#eb2610 0,#f54940 100%);
+    background-image: linear-gradient(to right,#eb2610 0,#f54940 100%);
+}
+.btn-color:hover {
+    color: #fff !important;
+}
+.paper-raise:hover {
+    border: 1px solid #fff;
+    text-decoration: none;
+}
+a:focus, a:hover {
+    color: #23527c;
+    text-decoration: underline;
+}
+a:active, a:hover {
+    outline: 0;
+}
+.btn-color {
+    color: #fff;
+    background-color: #ec2c18;
+    background-image: -webkit-linear-gradient(left,#eb2610 0,#f54940 100%);
+    background-image: -o-linear-gradient(left,#eb2610 0,#f54940 100%);
+    background-image: linear-gradient(to right,#eb2610 0,#f54940 100%);
+}
+.paper {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(128, 128, 128, 0.1) inset;
+    border-color: #dedede;
+}
+.btn1 {
+    position: relative;
+    color: #fff;
+    display: block;
+    width: 160px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transform-style: flat;
+    transition: all 250ms ease-out;
+    font-weight: normal;
+}
+.col-sm-push-4 {
+    left: 33.33333333%;
+}
+  .col-sm-pull-8 {
+    right: 66.66666667%;
+}
+    .fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+    .asside{
+        display: block;
+    }
+.fade {
+ opacity:0;
+ -webkit-transition:opacity .15s linear;
+ -o-transition:opacity .15s linear;
+ transition:opacity .15s linear
+}
+.fade.in {
+ opacity:1
+}
+.emsisoft-benefits {
+    font-size: 16px;
+}
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+.bs-callout .page-header {
+    padding-bottom: 9px;
+    margin: 0px 0 15px;
+    border-bottom: 1px solid #eee;
+}
+.page-header {
+    padding-bottom: 9px;
+    margin: 40px 0 20px;
+    border-bottom: 1px solid #eee;
+}
+.table-button a{
+    color: #fff;
+}
+

@@ -1,0 +1,8 @@
+<p><span style="font-size: small;">&nbsp;Hallo [vorname] [nachname],</span></p>
+<p><span style="font-size: small;">&nbsp;</span></p>
+<p><span style="font-size: small;">es gibt eine neue <strong>Nachricht</strong> von ArtPicture-Galerie</span></p>
+<p><span style="font-size: small;"><hr /><br /><b>###MESSAGE###</b><br /><hr /></span></p>
+<p><span style="font-size: small;">Wir w&uuml;nschen weiterhin viel Spass und Freude mit ihrer Galerie.</span></p>
+<p><span style="font-size: small;">&nbsp;</span></p>
+<p><span style="font-size: small;">F&uuml;r weitere Fragen stehen wir Ihnen gerne zur Verf&uuml;gung.</span></p>
+<p><span data-mce-mark="1"><a href="mailto:###ABSURL###"><span data-mce-mark="1">&nbsp;</span>###ABSURL###</a></span></p>

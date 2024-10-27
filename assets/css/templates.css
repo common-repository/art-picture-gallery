@@ -1,0 +1,103 @@
+.bootstrap-wrapper .apg_style{
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important; 
+font-size: 14px !important;     
+background: transparent !important;
+color: #333 !important;
+border: 1px solid transparent !important; 
+}
+.apg_style:hover{
+background: transparent !important; 
+}
+.bootstrap-wrapper .tdapg_style{
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important; 
+font-size: 14px !important;     
+background: transparent !important;
+color: #333 !important;
+border: 1px solid #ccc !important; 
+}
+.tdapg_style:hover{
+background: transparent !important; 
+}
+.bootstrap-wrapper {
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important; 
+font-size: 14px !important; 
+line-height: 1.42857143 !important; 
+color: #333 !important;
+background-color: #fff !important;   
+}
+.bootstrap-wrapper p {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important; 
+    font-size: 14px !important; 
+    color: #737f85 !important;
+    background-color: transparent !important;
+}
+.bootstrap-wrapper .col-md-3:nth-child(4n+1){
+    clear: unset !important;
+}
+.bootstrap-wrapper .col-md-4:nth-child(3n+1){
+    clear:unset !important;
+}
+.bootstrap-wrapper .col-md-6:nth-child(2n+1){
+    clear:unset !important;
+}
+
+html {
+position: relative !important;
+min-height: 100% !important;
+}
+body:before  { 
+content: "" !important; width: 0% !important;
+}
+html {
+    font-size: 14px !important;
+}
+body {
+/* Margin bottom by footer height */
+padding:0px !important;   
+margin-bottom: 60px !important;
+margin-left: auto !important;
+margin-right: auto !important;
+min-height:auto !important;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;  
+line-height: 20px !important;    
+color:#111 !important;
+background-color:#fff !important;
+}
+
+.bootstrap-wrapper a:visited {
+ color: #fc7700 !important;
+}
+.bootstrap-wrapper a:hover{
+color: #337ab7 !important;    
+}
+footer {
+position: absolute !important;
+bottom: 0 !important;
+width: 100% !important;
+/* Set the fixed height of the footer here */
+height: 60px !important;
+background-color: #f7f7f7 !important;
+}
+.bootstrap-wrapper .chip {
+    display: inline-block !important;
+    padding: 15px 25px !important;
+    height: 50px !important;
+    font-size: 16px !important;
+    line-height: 50px !important;
+    border-radius: 25px !important;
+     border: 0.1em solid #eee !important;
+  background-color:transparent !important;
+ }
+.bootstrap-wrapper .btn-user:hover  {
+   background-color:#eee !important;
+ color:#fff !important;
+  border: 0.04em solid #feaf20 !important;
+}
+.bootstrap-wrapper .chip .menue {
+    float: left !important;
+    margin: -10px 10px 0 -25px !important;
+    padding:8px 17px 0 !important;
+    height: 50px !important;
+    width: 50px !important;
+    border-radius: 50% !important;
+}
